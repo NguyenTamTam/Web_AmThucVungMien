@@ -1,0 +1,62 @@
+body{
+    background-color: cadetblue;
+}
+.ph{
+    width: 30%;
+    min-height: 600px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    opacity: 15px;
+}
+
+h1{
+    color: #868787;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input{
+    margin: 8px;
+    border-radius: 5px;
+    width: 40%;
+    height: 40px;
+    border: 0.5px solid grey;
+    opacity: 50px;
+    padding: 10px;
+}
+
+input:focus{
+    background-color: #FFF4A3;
+    color: #000;
+    border: 0.5px sloi #868787;
+}
+
+textarea{
+    margin: 5px;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 13pt;
+    width: 90%;
+}
+
+button{
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    box-shadow: inset 2px 3px 15px 6px #a9fb0f;
+}
+
+legend{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+
+

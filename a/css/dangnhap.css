@@ -1,0 +1,114 @@
+hr{
+    width: 100%;
+}
+
+body{
+    background-color: grey;
+}
+
+.login{
+    width: 30%;
+    min-height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+
+button{
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.dk h1{
+    font-size: 25pt;
+    margin: 10px;
+    color: #000;
+}
+
+label{
+    float: left;
+    font-size: 15pt;
+    color: grey;
+}
+
+input{
+    width: 92%;
+    height: 40px;
+}
+
+input #r {
+    margin-left: 0;
+    float: left;
+}
+
+nav{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+ 
+ }
+ 
+.hoac{
+    width: 40%;
+    border-radius: 5px;
+    float: left;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    margin: 10px;
+}
+ 
+.hoac:hover{
+    background-color: #f5fffa;
+}
+ 
+.hoac i{
+    margin: 10px;
+    color: #48d1cc;
+}
+ 
+.hoac .fb{
+    color: #000;
+}
+ 
+.hoac1{
+    margin: 10% 3%;
+    width: 100%;
+     
+}
+
+p{
+    font-size: 15pt;
+}
+
+.new{
+    color: red;
+}
+
+.new:hover{
+    border-bottom: 2px solid red;
+    width: 10%;
+}
+
+.lg{
+    background-color: rgb(243, 189, 90);
+    border: none;
+    font-size: 12pt;
+}
+
+.lg:hover{
+    background-color: orange;
+    color: #fff;
+}
+Strong{
+    color: #fff;
+}

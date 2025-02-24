@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab9 | Bai2</title>
+    <link rel="stylesheet" href="/a/css/dangky.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/a/css/styles2.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div class="inder-head container1 header" id="myHeader">
+                <a href="/a/amthuc.html" id="logo">AMTVN</a>
+                <ul id="main_menu">
+                    <li><a href="/a/amthuc.html">TRANG CHỦ</a></li>
+                    <li><a href="#">KHU VỰC </a>
+                        <ul>
+                            <li><a href="/a/mienBac.html">Miền Bắc</a></li>
+                            <li><a href="/MienNamNhap/mientrung.html">Miền Trung</a></li>
+                            <li><a href="/MienNamNhap/niemnam.html">Miền Nam</a></li>
+                            <li><a href="/mientay/MienTay.html">Miền Tây</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIỚI THIỆU </a></li>
+                    <li><a href="/a/phanhoi.html">PHẢN HỒI </a></li>
+                </ul>
+                <nav class="dangnhap">
+                    <a href="/a/dangnhap.html">Đăng nhập</a>
+                    <strong > | </strong>
+                    <a href="/a/dangky.html">Đăng ký</a>
+                </nav>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <div id="banner"><img src="/a/images/Header_Moi.png" alt=""></div>
+    <div class="hethong">
+
+        <form action="">
+            <label for="" class="dk">
+                <h1>Đăng ký</h1>
+            </label>
+            <input type="text" placeholder="Nhập số điện thoại"> <br>
+            <br>
+            <button id="bt">Tiếp theo</button><br>
+            <br>
+            <hr>
+            <nav>
+                <span>Hoặc</span>
+            </nav>
+        </form>
+        <div class="hoac1">
+            <nav class="hoac">
+                <a href="#"><i class="fa-brands fa-facebook"></i><a href="" class="fb">Facebook</a> </i></a>
+            </nav>
+            <nav class="hoac">
+                <a href="#"><i class="fa-brands fa-google"></i><a href="" class="fb">Google</a></a>
+            </nav>
+        </div>
+        <nav class="cm">
+            <p>Chào mừng bạn đến với AMTVN</p>
+        </nav>
+    </div>
+    <br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Thông tin liên lạc</h4>
+                    <ul>
+                        <li><a href="#">abcdef@hcm.com.vn</a></li> <br>
+                        <li><a href="#">Hotline: 1800 1929</a></li> <br>
+                        <li><a href="#">28/102B Lê Quý Đôn, Quận 1, TP Hồ Chí Minh</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Theo dõi chúng tôi</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Đặc sác hương vị</h4>
+                    <ul>
+                        <li><a href="#"></a><img src="/a/footer.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("myHeader");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

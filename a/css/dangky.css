@@ -1,0 +1,96 @@
+*{
+    font-size: 15pt;
+    text-decoration: none;
+}
+.hethong{
+    width: 30%;
+    min-height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+body{
+    background-color: darkgray;
+}
+
+form{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px ;
+    background-color: #daa520;
+    width: 90%;
+    height: 40px;
+    border: none;
+}
+
+button #bt:hover{
+    background-color: orange;
+}
+input{
+    border-radius: 6px;
+    border: 1px solid #c0c0c0;
+    width: 90%;
+    height: 40px;
+}
+
+placeholder{
+    padding: 5px;
+}
+
+.dn{
+    margin: 30px;
+    font-size: 20pt;
+}
+
+nav{
+   text-align: center;
+
+}
+
+.hoac{
+    width: 40%;
+    border-radius: 5px;
+    float: left;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    margin: 10px;
+}
+
+.hoac:hover{
+    background-color: #f5fffa;
+}
+
+.hoac i{
+    margin: 10px;
+    color: #48d1cc;
+}
+
+.hoac .fb{
+    color: #000;
+}
+
+.hoac1{
+    margin: 10% 3%;
+    width: 100%;
+    
+}
+
+
+label h1{
+    margin: 30px;
+    float: left;
+    font-size: 25pt;
+    font-variant: small-caps;
+}
+
+.cm{
+    margin: 10px;
+}
+strong{
+    color: #fff;
+}
